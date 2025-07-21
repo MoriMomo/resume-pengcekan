@@ -21,11 +21,7 @@ export default function Home() {
 
 
       {/* sebuah tempat untuk iupload semua data resume kemungkinan besar perlu backend */}
-      {/* {[
-        {
-       
-        }
-      ]} */}
+
 
     </main>
   );
