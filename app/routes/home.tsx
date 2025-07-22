@@ -15,7 +15,7 @@ export default function Home() {
       <section className="main-section">
         <div className="page-heading">
           <h1>Track your Applications and resume Ratings</h1>
-          <h2>Get insights on your resume performance</h2>
+          <h2>Get insights on your resume performance </h2>
         </div>
       </section>
 
