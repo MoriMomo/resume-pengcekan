@@ -22,20 +22,22 @@ export default function Home() {
           <h1>Track your Applications and resume Ratings</h1>
           <h2>Get insights on your resume performance </h2>
         </div>
+
+
+        {resumes.length > 0 && (
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl mx-auto">
+
+            {resumes.map((resume) => (
+              <div key={resume.id} className="w-full">
+                <ResumeCard resume={resume} />
+              </div>
+            ))}
+          </div>
+
+        )}
       </section>
 
-      {resumes.length > 0 && (
-
-        <div className="resume-section">
-
-          {resumes.map((resume) => (
-            <div key={resume.id}>
-              <ResumeCard resume={resume} />
-            </div>
-          ))}
-        </div>
-
-      )}
 
 
 
